@@ -130,3 +130,33 @@ console.log(ary9.indexOf('a',3))//5
 ## 10.lastIndexOf()
 ### 检测当前值在数组中最后一次出现的位置索引
 ### 返回值：最后一次查到的索引，未找到返回-1
+
+## 11.includes()
+### 判断一个数组是否包含一个指定的值
+```
+let ary11 = ['a','b','c','d']; 
+
+console.log(ary11.includes('c'));//true
+
+console.log(ary11.includes(2));//false
+```
+
+## 12.sort()
+### 对数组的元素进行排序（默认是从小到大来排序 并且是根据字符串来排序的）
+```
+let ary12 = [32,44,23,54,90,12,9]; 
+
+  ary12.sort(function(a,b){        // return a-b;  // 结果[9, 12, 23, 32, 44, 54, 90]
+
+       // return b-a;  // 结果[90, 54, 44, 32, 23, 12, 9]   })  
+
+   console.log(ary12);
+```
+
+## 13.reverse()
+### 把数组倒过来排列
+```
+let ary13 = [6,8,10,12]; 
+
+console.log(ary13.reverse());//[12, 10, 8, 6]
+```
