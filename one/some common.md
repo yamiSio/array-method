@@ -12,7 +12,9 @@ console.log(ary1)//结果为 [12,34,26,100]
 ### 删除数组的最后一项
 ```
 let arry2=[12,34,26];
+
 arry2.pop();
+
 console.log(arr2)  //结果[12,34]
 ```
 
