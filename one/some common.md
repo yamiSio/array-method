@@ -1,5 +1,10 @@
-- <a href ="#id"> 跳转文首</a>
-## <div id="id"> 1.push()</div>
+- <a href ="#id1"> push()页尾添加</a>
+- - <a href ="#id1"> push()页尾添加</a>
+- - <a href ="#id1"> push()页尾添加</a>
+- - <a href ="#id1"> push()页尾添加</a>
+- - <a href ="#id1"> push()页尾添加</a>
+- - <a href ="#id1"> push()页尾添加</a>
+## <div id="id1"> 1.push()</div>
 #### 向数组向数组的末尾添加新内容
 ### 可以添加如何数据类型
 ```
