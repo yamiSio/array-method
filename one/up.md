@@ -1,4 +1,14 @@
-## 1.forEach
+- <a href ="#id1"> forEach()遍历数组</a>
+- <a href ="#id2"> map()创造新数组</a>
+- <a href ="#id3"> new Set()去重</a>
+- <a href ="#id4"> reduce()数组累加</a>
+- <a href ="#id5"> filter()过滤某些元素</a>
+- <a href ="#id6"> some()元素判断是否符合</a>
+- <a href ="#id7"> every()所有元素判断是否全都为ture</a>
+- <a href ="#id8"> find()是否存在某元素</a>
+
+
+## <div id="id1">1.forEach</div>
 ### 遍历数组
 ### 第一个参数是遍历到的元素，第二个参数才是索引，第三个是数组本身
 ```
@@ -21,7 +31,7 @@ array[index]=4 * item;
 console.log(array); //输出结果：修改了原数组元素，为每个元素都乘以4
 ```
 
-## 2.map()
+## <div id="id2">2.map()</div>
 ### 创建一个新的数组,
 ```
 var arry=[1,3,5,7,9]
@@ -35,7 +45,7 @@ console.log(after)  //[2,6,10,14,18]
 ```
 
 
-## 3.new Set()
+## <div id="id3">3.new Set()</div>
 ### 去除数组重复数据。使用拓展运算符
 ```
 例1:
@@ -54,7 +64,7 @@ console.log(newarr );// ['vivo', 'oppo', 'realme', 'xiaomi']
 
 ```
 
-## 4.reduce()
+## <div id="id4">4.reduce()</div>
 ### reduce() 方法接收一个函数作为累加器，数组中的每个值（从左到右）开始缩减，最终计算为一个值。
 ```
 <script>
@@ -81,7 +91,7 @@ console.log(newarr );// ['vivo', 'oppo', 'realme', 'xiaomi']
       }, 0)
     </script>
 ```
-## 5.filter()
+## <div id="id5">5.filter()</div>
 ### 过滤某些元素
 ```
 在一个Array中，删掉偶数，只保留奇数
@@ -92,7 +102,7 @@ var r = arr.filter(function (x) {
 r; // [1, 5, 9, 15]
 ```
 
-## 6.some()
+## <div id="id6">6.some()</div>
 ### 数组判断
 ```
 是否有负数
@@ -101,7 +111,7 @@ const res = arr.some(item => item < 0)
 console.log(res)
 ```
 
-## 7.every()
+## <div id="id7">7.every()</div>
 ```
 every()是对数组中每一项运行给定函数，如果该函数对每一项返回true,则返回true
 every从迭代开始，一旦有一个不符合条件，则不会继续迭代下去。 every() 不会对空数组进行检测
@@ -119,7 +129,7 @@ console.log(res);
 
 ```
 
-## 8.find()
+## <div id="id8">8.find()</div>
 ### 寻找函数是否有这个元素 布尔判断
 ```
 let names = ["憨憨卷","花卷","糟老婆子"];
