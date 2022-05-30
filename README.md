@@ -11,11 +11,11 @@ let bbb = {
   text: 3
 }
 
-let ccc = Object.assign(aaa,bbb) // aaa目标对象, bbb源对象
+let ccc = Object.assign(aaa,bbb) // aaa目标对象, bbb源对象(将bbb拷给aaa)
 
-console.log(aaa)
-console.log(bbb)
-console.log(ccc)
+console.log(aaa)   //{text3,value:11}
+console.log(bbb)   //{text3}
+console.log(ccc)   //{text3,value:11}
 
 ```
 
