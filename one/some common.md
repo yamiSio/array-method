@@ -3,6 +3,7 @@
 - <a href ="#id3"> shift()删除第一些</a>
 - <a href ="#id4"> unshift()添加第一项</a>
 - <a href ="#id5"> slice()查找内容</a>
+- <a href ="#id5.5"> split() 把一个字符串分割成字符串数组</a>
 - <a href ="#id6"> splice()对数组进行增删改</a>
 - <a href ="#id7"> join()用指定的分隔符将数组每一项拼接为字符串</a>
 - <a href ="#id8"> concat()用于连接两个或多个数组</a>
@@ -69,6 +70,17 @@ let ary5 = [1,2,3,4,5,6,7,8,9];
 
 console.log(ary5.slice(-2,-1));//[8]
 ```
+
+## <div id="id5.5>5.5.spalit()
+## 把一个字符串分割成字符串数组
+ ```
+var str="How are you doing today?";
+var n=str.split(" ");  //How,are,you,doing,today?
+ 可以使用limit限制
+var str="How are you doing today?";
+var n=str.split(" ",3);  //How,are,you
+  
+ ```
 
 ## <div id="id6">6.splice()</div>
 ### 对数组进行增删改
