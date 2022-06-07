@@ -71,7 +71,7 @@ let ary5 = [1,2,3,4,5,6,7,8,9];
 console.log(ary5.slice(-2,-1));//[8]
 ```
 
-## <div id="id5.5">5.5.spalit()
+## <div id="id5.5">5.5.split()
 ## 把一个字符串分割成字符串数组
  ```
 var str="How are you doing today?";
