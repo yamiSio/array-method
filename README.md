@@ -19,3 +19,11 @@ console.log(ccc)   //{text3,value:11}
 
 ```
 
+## 验证是否为中文
+```
+function isChinese(str) {
+  const re = /^[\u4e00-\u9fa5]+$/;
+  return re.test(str);
+}
+```
+
